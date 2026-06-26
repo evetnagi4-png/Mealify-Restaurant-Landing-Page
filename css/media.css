@@ -1,0 +1,238 @@
+
+
+
+@media screen and (min-width :640px){
+    nav ul{
+        display: flex;
+        gap: 1.9rem;
+    }
+    .hero-links a{
+text-align: center;
+}
+
+.contact-content {
+    flex-direction: column;  
+    gap: 15px;
+  }
+
+  .inputs {
+    flex-direction: column;  
+  }
+
+  .inputs #name,
+  .inputs #email {
+    width: 100%; 
+  }
+
+
+
+.sm-100{
+    width: 100%;
+}
+
+.sm-50{
+    width: 50%;
+}
+
+.sm-33{
+    width: 33%;
+}
+.sm-25{
+    width: 25%;
+}
+
+
+
+
+}
+
+
+
+
+
+@media screen  and (min-width:768px){
+    .chefs-img{
+        flex-direction: row;
+    }
+
+    .md-100{
+    width: 100%;
+}
+
+.md-50{
+    width: 50%;
+}
+
+.md-33{
+    width: 33%;
+}
+.md-25{
+    width: 25%;
+}
+
+.chefs-img{
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.chef-card{
+    width: calc(50% - 15px);
+}
+ .gallery-images{
+    columns: 2;
+} 
+
+
+ .contact-content {
+    flex-direction: row; 
+
+    gap: 20px;
+  }
+
+  .inputs {
+    flex-direction: column;   
+    gap: 15px;
+  }
+
+  .inputs #name,
+  .inputs #email {
+    width: 100%;  
+  }
+
+
+
+    footer .about , footer .contact-details{
+    width: calc(calc(100% - var(--gap) * 2) / 2);
+   order: 1;
+}
+
+
+footer .Subscribe {
+    width: 100%;
+    order: 2;
+}
+
+
+
+
+
+    
+}
+
+@media screen  and (max-width:768px){
+    footer .about , footer .contact-details,footer .Subscribe{
+   width: 100%;
+   order: 0;
+}
+
+}
+
+
+
+
+@media screen  and (min-width:1024px){
+    header .container{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        
+    }
+
+    .hero-text{
+        order: -1;
+        text-align: start;
+        width: 40%;
+    }
+    .hero-img{
+        width: 39%;
+    }
+    .chef-card{
+        width: calc(33.3333% - 20px);
+    }
+
+     .gallery-images{
+    columns: 3;
+} 
+
+  .inputs {
+    flex-direction: row;   
+    gap: 15px;
+  }
+  .inputs #name,
+  .inputs #email {
+    width: 50%;  
+  }
+
+
+  
+
+    .lg-100{
+    width: 100%;
+}
+
+.lg-50{
+    width: 50%;
+}
+
+.lg-33{
+    width: 33%;
+}
+.lg-25{
+    width: 25%;
+}
+    footer .about , footer .contact-details{
+    width: calc(calc(100% - var(--gap) * 2) / 4);
+}
+
+footer .Subscribe {
+    width: calc(calc(100% - var(--gap) * 2) / 2);
+}
+  
+}
+    
+
+
+
+@media screen  and (min-width:1280px){
+  
+.xl-100{
+    width: 100%;
+}
+
+.xl-50{
+    width: 50%;
+}
+
+.xl-33{
+    width: 33%;
+}
+.xl-25{
+    width: 25%;
+}
+
+
+
+
+}
+
+@media screen  and (min-width:1563px){
+    .xxl-100{
+    width: 100%;
+}
+
+.xxl-50{
+    width: 50%;
+}
+
+.xxl-33{
+    width: 33%;
+}
+.xxl-25{
+    width: 25%;
+}
+
+
+}
+
+
+
